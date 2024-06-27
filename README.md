@@ -5,14 +5,21 @@ Analyzing a set of sales data for a fictitious global electronics retailer, incl
 Electronics Global Retailer - https://mavenanalytics.io/data-playground
 
 ## Contents of Data
+
 Customers
+
 Data_Dictionary
+
 Exchange_Rates
+
 Products
+
 Sales
+
 Stores
 
-##Initial Analysis
+## Initial Analysis
+
 1. What types of products does the company sell, and where are customers located?
 
 2. Are there any seasonal patterns or trends for order volume or revenue?
