@@ -4,19 +4,27 @@ Analyzing a set of sales data for a fictitious global electronics retailer, incl
 ## Source of Data
 Electronics Global Retailer - https://mavenanalytics.io/data-playground
 
-## Contents of Data
+## Contents of Data - Tables
 
-Customers
+- Customers
+  - Keys: CustomerKey, Gender, Name, City, State Code, State, Zip Code, Country, Continent and Birthday.
 
-Data_Dictionary
+- Data_Dictionary
+  - Keys: Table, Field and Description. 
 
-Exchange_Rates
+- Exchange_Rates
+  - Keys: Date, Currency and Exchange. 
 
-Products
+- Products
+  - Keys: ProductKey, Product Name, Brand, Color, Unit Cost USD, Unit Price USD, Subcategory, CategoryKey and Category. 
 
-Sales
+- Sales
+  - Keys: Order Number, Line Item, Order Date, Delivery Date, CustomerKey, StoreKey, ProductKey, Quantity and Currency Code. 
 
-Stores
+- Stores
+  - Keys: StoreKey, Country, State, Square Meters and Open Date.
+
+#### Entity Relationship Diagram
 
 ## Initial Analysis
 
