@@ -32,6 +32,8 @@ Electronics Global Retailer - https://mavenanalytics.io/data-playground
 
 #### Entity Relationship Diagram
 
+![ERD diagram of six tables and their relationships in .png format. Diagram created using dbdiagram.io.](https://github.com/aaron-ardell/Global_Electronics/blob/main/global_electronics_erd.png)
+
 ## Initial Analysis
 
 1. What types of products does the company sell, and where are customers located?
