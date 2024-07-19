@@ -4,19 +4,33 @@ Analyzing a set of sales data for a fictitious global electronics retailer, incl
 ## Source of Data
 Electronics Global Retailer - https://mavenanalytics.io/data-playground
 
-## Contents of Data
+## Objectives
+1. First objective is to ingest the data from raw CSV files, conduct some basic data profiling, feature engineering and QA, and build a customer calendar table to track performance by the day, week, month, quarter or year.
+2. Second objective is to build a data model by connecting the foreign keys in the Sales table to the primary keys in each dimension table via 1:many relationships.
+3. Third objective is to enrich the data model by adding calculated measures to track key business metrics, including total orders, revenue, average order value and delivery time.
+4. Fourth and final objective is to design an interactive report that leadership team can use to explore performance by store and over time.
 
-Customers
+## Contents of Data - Tables
 
-Data_Dictionary
+- Customers
+  - Keys: CustomerKey, Gender, Name, City, State Code, State, Zip Code, Country, Continent and Birthday.
 
-Exchange_Rates
+- Data_Dictionary
+  - Keys: Table, Field and Description. 
 
-Products
+- Exchange_Rates
+  - Keys: Date, Currency and Exchange. 
 
-Sales
+- Products
+  - Keys: ProductKey, Product Name, Brand, Color, Unit Cost USD, Unit Price USD, Subcategory, CategoryKey and Category. 
 
-Stores
+- Sales
+  - Keys: Order Number, Line Item, Order Date, Delivery Date, CustomerKey, StoreKey, ProductKey, Quantity and Currency Code. 
+
+- Stores
+  - Keys: StoreKey, Country, State, Square Meters and Open Date.
+
+#### Entity Relationship Diagram
 
 ## Initial Analysis
 
