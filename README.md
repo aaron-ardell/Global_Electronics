@@ -4,6 +4,12 @@ Analyzing a set of sales data for a fictitious global electronics retailer, incl
 ## Source of Data
 Electronics Global Retailer - https://mavenanalytics.io/data-playground
 
+## Objectives
+1. First objective is to ingest the data from raw CSV files, conduct some basic data profiling, feature engineering and QA, and build a customer calendar table to track performance by the day, week, month, quarter or year.
+2. Second objective is to build a data model by connecting the foreign keys in the Sales table to the primary keys in each dimension table via 1:many relationships.
+3. Third objective is to enrich the data model by adding calculated measures to track key business metrics, including total orders, revenue, average order value and delivery time.
+4. Fourth and final objective is to design an interactive report that leadership team can use to explore performance by store and over time.
+
 ## Contents of Data - Tables
 
 - Customers
